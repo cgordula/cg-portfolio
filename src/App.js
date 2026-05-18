@@ -28,7 +28,7 @@ function App() {
             clean, performant applications from concept to deployment.
           </p>
           <div className="hero-cta">
-            <a href="#contact" className="btn btn-primary">Get in touch</a>
+            <a href="https://drive.google.com/file/d/1ZANJTE0xAlyBQvgGnlS3N0oY8XaTVNn4/view?usp=sharing" target="_blank" rel="noreferrer" className="btn btn-primary">Download Resume</a>
             <a href="#experience" className="btn btn-ghost">View work</a>
           </div>
         </div>
