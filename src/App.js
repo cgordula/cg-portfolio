@@ -80,6 +80,7 @@ function App() {
               <span className="skill-tag">CodeIgniter</span>
               <span className="skill-tag">NodeJS</span>
               <span className="skill-tag">ExpressJS</span>
+              <span className="skill-tag">RESTful APIs</span>
             </div>
           </div>
           <div className="skill-card">
@@ -135,7 +136,7 @@ function App() {
               <div className="exp-company">RevenueAds<br />Oklahoma, USA</div>
             </div>
             <div className="exp-content">
-              <h3 className="exp-title">Developer</h3>
+              <h3 className="exp-title">💻 Developer</h3>
               <ul className="exp-desc">
                 <li>Front-end development and UI/UX design for web applications</li>
                 <li>Trained and mentored newly hired developers on codebase standards and workflows</li>
@@ -155,7 +156,7 @@ function App() {
               <div className="exp-company">Datascope Communication Phils. Inc.<br />Philippines</div>
             </div>
             <div className="exp-content">
-              <h3 className="exp-title">System Administrator</h3>
+              <h3 className="exp-title">🖧 System Administrator</h3>
               <ul className="exp-desc">
                 <li>Managed and maintained company systems and network infrastructure</li>
                 <li>Promoted from Data Entry/Encoder role based on technical performance</li>
@@ -171,6 +172,145 @@ function App() {
       <section id="education">
         <div className="section-header">
           <span className="section-num">03</span>
+          <h2 className="section-title">Education &amp; Certifications</h2>
+        </div>
+        <div className="edu-grid">
+          <div className="edu-card">
+            <div className="edu-year">2006 – 2011</div>
+            <div className="edu-degree">BS in Computer Engineering</div>
+            <div className="edu-school">International Electronics and Technical Institute (IETI)</div>
+          </div>
+          <div className="edu-card">
+            <div className="edu-year">Sep – Dec 2022</div>
+            <div className="edu-degree">Full Stack Software Development</div>
+            <div className="edu-school">Zuitt Learning Institute (Coding Bootcamp)</div>
+          </div>
+          <div className="edu-card">
+            <div className="edu-year">Mar – Jun 2022</div>
+            <div className="edu-degree">AWS re/Start Program</div>
+            <div className="edu-school">Edukasyon.PH</div>
+          </div>
+          <div className="edu-card">
+            <div className="edu-year">Issued Jul 2022</div>
+            <div className="edu-degree">AWS Certified Cloud Practitioner</div>
+            <div className="edu-school">Amazon Web Services (AWS)<br />Official certification in cloud fundamentals</div>
+          </div>
+        </div>
+      </section>
+
+         {/* PROJECTS */}
+      <section id="projects">
+        <div className="section-header">
+          <span className="section-num">03</span>
+          <h2 className="section-title">Projects</h2>
+        </div>
+        <div className="projects-grid">
+ 
+          <div className="project-card">
+            <div className="project-image">
+              <div className="project-img-placeholder"><span>🌐</span></div>
+              <div className="project-overlay">
+                <a href="https://cgordula.github.io/gordula-capstone-1/" target="_blank" rel="noreferrer" className="project-live">↗ Live Demo</a>
+              </div>
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Personal Web Portfolio</h3>
+              <div className="project-links">
+                <a href="https://github.com/cgordula/gordula-capstone-1" target="_blank" rel="noreferrer" className="project-link">
+                  <span>⌥</span> GitHub
+                </a>
+                <a href="https://cgordula.github.io/gordula-capstone-1/" target="_blank" rel="noreferrer" className="project-link project-link-primary">
+                  ↗ Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+ 
+          <div className="project-card">
+            <div className="project-image">
+              <div className="project-img-placeholder"><span>🛒</span></div>
+              <div className="project-overlay">
+                <a href="https://ecommerce-capstone-2-gordula.onrender.com/products" target="_blank" rel="noreferrer" className="project-live">↗ Live Demo</a>
+              </div>
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Ecommerce Backend API</h3>
+              <div className="project-links">
+                <a href="https://gitlab.com/batch-211-carmina/capstone-2-gordula" target="_blank" rel="noreferrer" className="project-link">
+                  <span>⌥</span> GitLab
+                </a>
+                <a href="https://ecommerce-capstone-2-gordula.onrender.com/products" target="_blank" rel="noreferrer" className="project-link project-link-primary">
+                  ↗ Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+ 
+          <div className="project-card">
+            <div className="project-image">
+              <div className="project-img-placeholder"><span>🎂</span></div>
+              <div className="project-overlay">
+                <a href="https://carmaj-swittut-cakeshop.vercel.app/" target="_blank" rel="noreferrer" className="project-live">↗ Live Demo</a>
+              </div>
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Cake Online Shop</h3>
+              <div className="project-links">
+                <a href="https://gitlab.com/batch-211-carmina/capstone-3-gordula" target="_blank" rel="noreferrer" className="project-link">
+                  <span>⌥</span> GitLab
+                </a>
+                <a href="https://carmaj-swittut-cakeshop.vercel.app/" target="_blank" rel="noreferrer" className="project-link project-link-primary">
+                  ↗ Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+ 
+          <div className="project-card">
+            <div className="project-image">
+              <div className="project-img-placeholder"><span>🎨</span></div>
+              <div className="project-overlay">
+                <a href="https://www.figma.com/proto/4EIm1kZ4TO6os9QQOEAM7e/Datagenetx?node-id=1-2&starting-point-node-id=32%3A70" target="_blank" rel="noreferrer" className="project-live">↗ Live Demo</a>
+              </div>
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Company Web App — UI Design Mockup</h3>
+              <div className="project-links">
+                <a href="https://www.figma.com/" target="_blank" rel="noreferrer" className="project-link">
+                  <span>⌥</span> Figma
+                </a>
+                <a href="https://www.figma.com/proto/4EIm1kZ4TO6os9QQOEAM7e/Datagenetx?node-id=1-2&starting-point-node-id=32%3A70" target="_blank" rel="noreferrer" className="project-link project-link-primary">
+                  ↗ Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+ 
+          <div className="project-card">
+            <div className="project-image">
+              <div className="project-img-placeholder"><span>🏥</span></div>
+              <div className="project-overlay">
+                <a href="https://www.figma.com/proto/ofp0fN24GKrycxeNpv6sAI/Yanhee-International-Hospital?node-id=1-2" target="_blank" rel="noreferrer" className="project-live">↗ Live Demo</a>
+              </div>
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Hospital Website — UI Design Mockup</h3>
+              <div className="project-links">
+                <a href="https://www.figma.com/" target="_blank" rel="noreferrer" className="project-link">
+                  <span>⌥</span> Figma
+                </a>
+                <a href="https://www.figma.com/proto/ofp0fN24GKrycxeNpv6sAI/Yanhee-International-Hospital?node-id=1-2" target="_blank" rel="noreferrer" className="project-link project-link-primary">
+                  ↗ Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+ 
+        </div>
+      </section>
+      <section id="education">
+        <div className="section-header">
+          <span className="section-num">04</span>
           <h2 className="section-title">Education &amp; Certifications</h2>
         </div>
         <div className="edu-grid">
@@ -213,7 +353,7 @@ function App() {
                 <div className="contact-link-value">carminagordula@gmail.com</div>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/carmina-gordula-14a92773/" target="_blank" rel="noreferrer" className="contact-link">
+            <a href="https://www.linkedin.com/in/carmina-gordula-14a92773" target="_blank" rel="noreferrer" className="contact-link">
               <div className="contact-link-icon">in</div>
               <div className="contact-link-info">
                 <div className="contact-link-label">LinkedIn</div>
