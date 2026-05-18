@@ -168,37 +168,8 @@ function App() {
         </div>
       </section>
 
-      {/* EDUCATION */}
-      <section id="education">
-        <div className="section-header">
-          <span className="section-num">03</span>
-          <h2 className="section-title">Education &amp; Certifications</h2>
-        </div>
-        <div className="edu-grid">
-          <div className="edu-card">
-            <div className="edu-year">2006 – 2011</div>
-            <div className="edu-degree">BS in Computer Engineering</div>
-            <div className="edu-school">International Electronics and Technical Institute (IETI)</div>
-          </div>
-          <div className="edu-card">
-            <div className="edu-year">Sep – Dec 2022</div>
-            <div className="edu-degree">Full Stack Software Development</div>
-            <div className="edu-school">Zuitt Learning Institute (Coding Bootcamp)</div>
-          </div>
-          <div className="edu-card">
-            <div className="edu-year">Mar – Jun 2022</div>
-            <div className="edu-degree">AWS re/Start Program</div>
-            <div className="edu-school">Edukasyon.PH</div>
-          </div>
-          <div className="edu-card">
-            <div className="edu-year">Issued Jul 2022</div>
-            <div className="edu-degree">AWS Certified Cloud Practitioner</div>
-            <div className="edu-school">Amazon Web Services (AWS)<br />Official certification in cloud fundamentals</div>
-          </div>
-        </div>
-      </section>
 
-         {/* PROJECTS */}
+      {/* PROJECTS */}
       <section id="projects">
         <div className="section-header">
           <span className="section-num">03</span>
@@ -305,8 +276,9 @@ function App() {
               </div>
             </div>
           </div>
- 
         </div>
+
+      {/* EDUCATION */}
       </section>
       <section id="education">
         <div className="section-header">
