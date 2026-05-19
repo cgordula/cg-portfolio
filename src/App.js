@@ -66,6 +66,7 @@ function App() {
               <span className="skill-tag">HTML</span>
               <span className="skill-tag">CSS</span>
               <span className="skill-tag">Bootstrap</span>
+              <span className="skill-tag">Tailwind CSS</span>
               <span className="skill-tag">JavaScript</span>
               <span className="skill-tag">ReactJS</span>
               <span className="skill-tag">jQuery</span>
@@ -114,6 +115,7 @@ function App() {
               <span className="skill-tag">Photoshop</span>
               <span className="skill-tag">Illustrator</span>
               <span className="skill-tag">WordPress</span>
+              <span className="skill-tag">Postman</span>
               <span className="skill-tag">Git</span>
               <span className="skill-tag">GitHub</span>
             </div>
