@@ -80,7 +80,6 @@ function App() {
               <span className="skill-tag">CodeIgniter</span>
               <span className="skill-tag">NodeJS</span>
               <span className="skill-tag">ExpressJS</span>
-              <span className="skill-tag">RESTful APIs</span>
             </div>
           </div>
           <div className="skill-card">
